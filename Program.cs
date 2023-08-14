@@ -1,4 +1,7 @@
 
+using RabbitMQ_Masstransit_WebAPI.Services.Abstract;
+using RabbitMQ_Masstransit_WebAPI.Services.Concrete;
+
 namespace RabbitMQ_Masstransit_WebAPI
 {
     public class Program
@@ -14,6 +17,7 @@ namespace RabbitMQ_Masstransit_WebAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddScoped<IMessageProducer, MessageProducer>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
