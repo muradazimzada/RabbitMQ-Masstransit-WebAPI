@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ-Masstransit-WebAPI", "RabbitMQ-Masstransit-WebAPI.csproj", "{304E12AA-558C-4DE6-A1A8-F4DBCE5B4607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{304E12AA-558C-4DE6-A1A8-F4DBCE5B4607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304E12AA-558C-4DE6-A1A8-F4DBCE5B4607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304E12AA-558C-4DE6-A1A8-F4DBCE5B4607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304E12AA-558C-4DE6-A1A8-F4DBCE5B4607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {280CC7FC-ED20-42A8-8316-0C8ACD661641}
+	EndGlobalSection
+EndGlobal
